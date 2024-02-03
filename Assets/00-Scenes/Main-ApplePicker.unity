@@ -215,6 +215,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1196616553 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1164304172794136240, guid: d974d9b8377a2f54ab8d45b7c4df9844, type: 3}
+  m_PrefabInstance: {fileID: 8766641545256518097}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1196616557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196616553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ce98b2565adde24b89e7a0a73995d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applePrefab: {fileID: 0}
+  speed: 10
+  leftAndRightEdge: 20
+  changeToChangeDirections: 0.1
+  secondsBetweenAppleDrops: 1
 --- !u!1 &1572004184
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,6 +343,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: AppleTree
       objectReference: {fileID: 0}
+    - target: {fileID: 1982979905561629106, guid: d974d9b8377a2f54ab8d45b7c4df9844, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982979905561629106, guid: d974d9b8377a2f54ab8d45b7c4df9844, type: 3}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5083463454036654810, guid: d974d9b8377a2f54ab8d45b7c4df9844, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -361,10 +391,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1982979905561629106, guid: d974d9b8377a2f54ab8d45b7c4df9844, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1164304172794136240, guid: d974d9b8377a2f54ab8d45b7c4df9844, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1196616557}
   m_SourcePrefab: {fileID: 100100000, guid: d974d9b8377a2f54ab8d45b7c4df9844, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

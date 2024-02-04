@@ -53,6 +53,11 @@ public class ApplePicker : MonoBehaviour
 		//Remove the basket from the list and destroy the GameObject
 		basketList.RemoveAt(basketIndex);
 		Destroy(tBasketGO);
+		
+		//if there are no baskets left, restart the game
+		if(basketList.Count == 0){
+			SceneManager.LoadScene("01-Apple Picker");
+		}
 	
 	}
 

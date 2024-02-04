@@ -228,6 +228,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e39c718a067dd5e499ccbb72a41b6b2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  basketPrefab: {fileID: 4538136308738259682, guid: da0ad162b091fb24d813262944122b2f, type: 3}
+  numBaskets: 3
+  basketBottomY: -14
+  basketSpacingY: 2
 --- !u!1 &1196616553 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1164304172794136240, guid: d974d9b8377a2f54ab8d45b7c4df9844, type: 3}

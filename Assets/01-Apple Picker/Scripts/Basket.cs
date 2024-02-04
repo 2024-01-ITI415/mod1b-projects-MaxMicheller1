@@ -10,18 +10,21 @@ public class Basket : MonoBehaviour
 	
 	public Text scoreGT;
 	
-    // Start is called before the first frame update
-    void Start()
-    {
-        //Find a refrence to the ScoreCounter GameObject
-		GameObject scoreGO = GameObject.Find("ScoreCounter");
-		
-		//Get the Text Component of the GameObject
-		scoreGT = scoreGO.GetComponent<Text>();
-		
-		//Set the starting number of points to 0
+	// Start is called before the first frame update
+	void Start() {
+
+		// Find a reference to the ScoreCounter GameObject
+
+		GameObject scoreGO = GameObject.Find("ScoreCounter");               
+
+		// Get the Text Component of that GameObject
+
+		scoreGT = scoreGO.GetComponent<Text>();                             
+
+		// Set the starting number of points to 0
+
 		scoreGT.text = "0";
-		
+
     }
 
     // Update is called once per frame
@@ -51,7 +54,7 @@ public class Basket : MonoBehaviour
 			Destroy (collidedWith);
 			
 			//parse the text of the scoreGT into an int
-			int score = int.Parse( scoreGT.text);
+			int score = int.Parse(scoreGT.text);
 			
 			//add points for catching the apple
 			score += 100;

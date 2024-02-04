@@ -339,9 +339,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 497711813573291913, guid: d974d9b8377a2f54ab8d45b7c4df9844, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1164304172794136240, guid: d974d9b8377a2f54ab8d45b7c4df9844, type: 3}
       propertyPath: m_Name
       value: AppleTree
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164304172794136240, guid: d974d9b8377a2f54ab8d45b7c4df9844, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1982979905561629106, guid: d974d9b8377a2f54ab8d45b7c4df9844, type: 3}
       propertyPath: m_Enabled
@@ -394,6 +402,10 @@ PrefabInstance:
     - target: {fileID: 5083463454036654810, guid: d974d9b8377a2f54ab8d45b7c4df9844, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545691195085237676, guid: d974d9b8377a2f54ab8d45b7c4df9844, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1982979905561629106, guid: d974d9b8377a2f54ab8d45b7c4df9844, type: 3}

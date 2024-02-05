@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Basket : MonoBehaviour
 {
 	
 	[Header("Set Dynamically")]
 	
-	public Text scoreGT;
+	public TMP_Text scoreGT;
 	
 	// Start is called before the first frame update
 	void Start() {
@@ -19,7 +20,7 @@ public class Basket : MonoBehaviour
 
 		// Get the Text Component of that GameObject
 
-		scoreGT = scoreGO.GetComponent<Text>();                             
+		scoreGT = scoreGO.GetComponent<TMP_Text>();                             
 
 		// Set the starting number of points to 0
 

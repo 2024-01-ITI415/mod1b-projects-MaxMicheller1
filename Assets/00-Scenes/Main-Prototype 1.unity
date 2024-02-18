@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 380899642}
   - component: {fileID: 380899641}
   - component: {fileID: 380899640}
+  - component: {fileID: 380899643}
   m_Layer: 0
   m_Name: SlingShot
   m_TagString: Untagged
@@ -189,7 +190,7 @@ Transform:
   m_GameObject: {fileID: 380899639}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -10, z: 0}
+  m_LocalPosition: {x: 0, y: -12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -199,6 +200,24 @@ Transform:
   - {fileID: 512086232}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &380899643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380899639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33bebbf14cb9b754ca332a397a84f8ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabProjectile: {fileID: 110604516512454681, guid: 21e7edd8d9fe8f7449ac1a14907d747e, type: 3}
+  velocityMult: 10
+  launchPoint: {fileID: 0}
+  launchPos: {x: 0, y: 0, z: 0}
+  projectile: {fileID: 0}
+  aimingMode: 0
 --- !u!1 &512086231
 GameObject:
   m_ObjectHideFlags: 0

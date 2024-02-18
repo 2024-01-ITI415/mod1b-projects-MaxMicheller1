@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f77366ad13eab45718fd2154e19ffa32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloudSphere: {fileID: 2998525052700895003, guid: 937a17f0e4c10a944babfb3d869e6b4f, type: 3}
+  cloudSphere: {fileID: 2998525052700895003, guid: 771f36ddd9b2ec3458e31a0e3e8491e1, type: 3}
   numSpheresMin: 6
   numSpheresMax: 10
   sphereOffsetScale: {x: 5, y: 2, z: 1}

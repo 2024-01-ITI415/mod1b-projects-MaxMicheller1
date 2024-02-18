@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 380899642}
   - component: {fileID: 380899641}
-  - component: {fileID: 380899640}
   - component: {fileID: 380899643}
   m_Layer: 0
   m_Name: SlingShot
@@ -142,24 +141,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &380899640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 380899639}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fc74a25ec139fc4d9726081cf188932, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabProjectile: {fileID: 110604516512454681, guid: 21e7edd8d9fe8f7449ac1a14907d747e, type: 3}
-  velocityMult: 10
-  launchPoint: {fileID: 0}
-  launchPos: {x: 0, y: 0, z: 0}
-  projectile: {fileID: 0}
-  aimingMode: 0
 --- !u!135 &380899641
 SphereCollider:
   m_ObjectHideFlags: 0

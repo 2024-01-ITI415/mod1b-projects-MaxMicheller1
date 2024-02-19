@@ -6,22 +6,20 @@ public class Goal1 : MonoBehaviour
 {
 	//static public bool 	goalMet = false;
 
-	void OnCollisionEnter( Collision coll ) {                         // a
-
-        // Find out what hit this basket
-
-        GameObject collidedWith = coll.gameObject;                    // b
-
-        if ( collidedWith.tag == "Projectile1" ) {                          // c
-
-            Destroy( collidedWith );
-
-        }
-
-    }
+	void OnTriggerEnter(Collider other) {
+		// when the trigger is hit by something
+		// check to see if it's a Projectile 
+		if (other.gameObject.tag == "Projectile1") {
+			// if so, set goalMet = true
+			Destroy (other);
 		
 			
-		
+			
+
+
+
+		}
+	}
     // Start is called before the first frame update
     void Start()
     {

@@ -16,10 +16,17 @@ public class BallonTime : MonoBehaviour
 		
 		ballon.transform.position = transform.position;
 		
-		Vector3 pos = transform.position;
-		
-		pos.x = 0;
-		pos.y = 0;
+		Vector3 pos = this.gameObject.transform.position;
+
+		pos.x = Random.value * 25;
+		pos.y = Random.value * 18;
+		pos.y -= 6;
+
+		if (Random.value < 0.5f){
+			pos.x = -pos.x;
+		}
+
+		ballon.transform.position = pos;
 
 		Invoke("CreateBallon", secondsBetweenBallonSpawns);
 		

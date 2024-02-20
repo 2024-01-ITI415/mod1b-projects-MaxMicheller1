@@ -16,6 +16,8 @@ public class Goal1 : MonoBehaviour
 
             Destroy( collidedWith );
 
+            Destroy(this.gameObject);
+
         }
 
     }

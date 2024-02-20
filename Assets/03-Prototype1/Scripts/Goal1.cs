@@ -6,17 +6,22 @@ public class Goal1 : MonoBehaviour
 {
 	//static public bool 	goalMet = false;
 
-	void OnCollisionEnter( Collision coll ) {                         // a
+    static public bool 	goalMet1 = false;
+	public void OnCollisionEnter( Collision coll ) {                         // a
 
         // Find out what hit this basket
 
         GameObject collidedWith = coll.gameObject;                    // b
 
         if ( collidedWith.tag == "Projectile1" ) {                          // c
+            
+            // Goal1.goalMet1   = true;
 
             Destroy( collidedWith );
 
             Destroy(this.gameObject);
+
+            
 
         }
 

@@ -325,6 +325,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 196058981}
   serializedVersion: 2
   m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.5}
@@ -435,6 +436,8 @@ MeshFilter:
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &306752812
 =======
+=======
+>>>>>>> parent of 43bbabe (Starting Prototype1)
   m_GameObject: {fileID: 792234105}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
@@ -529,8 +532,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 306752812}
   serializedVersion: 2
+=======
+  m_GameObject: {fileID: 1572004184}
+>>>>>>> parent of 43bbabe (Starting Prototype1)
 =======
   m_GameObject: {fileID: 1572004184}
 >>>>>>> parent of 43bbabe (Starting Prototype1)
@@ -691,9 +698,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &952481270 stripped
 GameObject:
@@ -1743,3 +1750,7 @@ SceneRoots:
   - {fileID: 380899642}
   - {fileID: 73106771}
 >>>>>>> parent of 59f9917 (attemts)
+=======
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+>>>>>>> parent of 43bbabe (Starting Prototype1)
